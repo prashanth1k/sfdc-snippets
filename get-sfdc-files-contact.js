@@ -1,8 +1,11 @@
 /** 
  * 
- * Description: Get files for given record ids. Simple script, almost no error handling.
- * Author: Prashanth Krishnamurthy, @crmcog
- * License: None
+ * Description: Get files from SFDC for given record ids. Simple script, almost no error handling.
+ *              This is a simple REST API call to demonstrate attachment retrieval from SFDC. It is
+ *              not scalable, does not handle errors properly, and is not production-ready.
+ *
+ * Author:      Prashanth Krishnamurthy, @crmcog
+ * License:     None
 **/
 
 var fetch = require('cross-fetch');
